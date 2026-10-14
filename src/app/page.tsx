@@ -843,7 +843,7 @@ export default function Home() {
 
           {/* Footer */}
           <footer className="pt-12 border-t border-slate-900 flex flex-col sm:flex-row items-center justify-between text-xs font-mono text-slate-500 gap-4">
-            <p>© {new Date().getFullYear()} Melaku Deguale. All rights reserved.</p>
+            <p>&copy; 2026 Melaku Deguale. All rights reserved.</p>
             <div className="flex gap-4">
               <a href="https://github.com/melakudeguale9-droid" target="_blank" rel="noreferrer" className="hover:text-blue-400 transition">GitHub</a>
               <a href="https://linkedin.com/in/melaku-deguale-7803ba416" target="_blank" rel="noreferrer" className="hover:text-blue-400 transition">LinkedIn</a>
