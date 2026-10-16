@@ -65,7 +65,7 @@ export default function Home() {
             download="Melaku_Deguale_CV.pdf"
             target="_blank"
             rel="noreferrer"
-            className="px-5 py-2 rounded-xl bg-blue-600 hover:bg-blue-500 text-white text-xs md:text-sm font-semibold transition shadow-md shadow-blue-600/30"
+            className="px-5 py-2 rounded-xl bg-blue-600 hover:bg-blue-500 text-white text-xs md:text-sm font-semibold  hover:scale-105 hover:shadow-lg hover:shadow-blue-600/30 transition-all duration-300"
           >
             Download CV
           </a>
@@ -84,7 +84,7 @@ export default function Home() {
           {/* Hero Section */}
           <section id="home" className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center pt-8">
             <div className="lg:col-span-7 space-y-6">
-              <h1 className="text-4xl sm:text-6xl font-black text-white tracking-tight leading-tight">
+              <h1 className="text-4xl sm:text-6xl font-black text-white tracking-tight leading-tight hover:scale-[1.02] transition-transform duration-300">
                 Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-400">Melaku Deguale</span>
               </h1>
               <p className="text-xl sm:text-2xl font-bold text-slate-200">
@@ -97,7 +97,7 @@ export default function Home() {
               <div className="flex flex-wrap items-center gap-4 pt-2">
                 <a
                   href="#projects"
-                  className="px-6 py-3.5 rounded-xl bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white font-bold text-xs transition shadow-lg shadow-blue-500/25"
+                  className="px-6 py-3.5 rounded-xl bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white font-bold text-xs hover:scale-105 hover:shadow-xl hover:shadow-blue-500/40 transition-all duration-300"
                 >
                   View My Projects
                 </a>
@@ -106,35 +106,35 @@ export default function Home() {
                   download="Melaku_Deguale_CV.pdf"
                   target="_blank"
                   rel="noreferrer"
-                  className="px-6 py-3.5 rounded-xl bg-[#0f172a] hover:bg-[#1e293b] text-slate-200 border border-slate-800 font-semibold text-xs transition"
+                  className="px-6 py-3.5 rounded-xl bg-[#0f172a] hover:bg-[#1e293b] text-slate-200 border border-slate-800 hover:border-slate-600 font-semibold text-xs hover:scale-105 hover:shadow-lg transition-all duration-300"
                 >
                   Download CV
                 </a>
               </div>
 
               <div className="flex items-center gap-6 pt-3 text-sm text-slate-400">
-                <a href="https://github.com/melakudeguale9-droid" target="_blank" rel="noreferrer" className="hover:text-blue-400 transition">github</a>
-                <a href="https://linkedin.com/in/melaku-deguale-7803ba416" target="_blank" rel="noreferrer" className="hover:text-blue-400 transition">linkedin</a>
-                <a href="mailto:melakudeguale9@gmail.com" className="hover:text-blue-400 transition">email</a>
+                <a href="https://github.com/melakudeguale9-droid" target="_blank" rel="noreferrer" className="hover:text-blue-400 hover:scale-110 transition-all duration-300">github</a>
+                <a href="https://linkedin.com/in/melaku-deguale-7803ba416" target="_blank" rel="noreferrer" className="hover:text-blue-400 hover:scale-110 transition-all duration-300 inline-block">linkedin</a>
+                <a href="mailto:melakudeguale9@gmail.com" className="hover:text-blue-400 hover:scale-110 transition-all duration-300 inline-block">email</a>
               </div>
             </div>
 
             {/* Glowing Avatar Frame with Floating Badges */}
-            <div className="lg:col-span-5 flex justify-center relative">
-              <div className="relative w-64 h-64 sm:w-80 sm:h-80 rounded-full p-2 bg-gradient-to-tr from-blue-500 via-cyan-400 to-indigo-500 shadow-2xl shadow-blue-500/20">
+            <div className="lg:col-span-5 flex justify-center relative hover:scale-105 transition-transform duration-500">
+              <div className="relative w-64 h-64 sm:w-80 sm:h-80 rounded-full p-2 bg-gradient-to-tr from-blue-500 via-cyan-400 to-indigo-500 shadow-2xl shadow-blue-500/20 hover:shadow-blue-500/50 transition-all">
                 <div className="w-full h-full rounded-full overflow-hidden bg-slate-900 border-4 border-[#070b19] relative">
                   <img 
                     src="/profile.jp"                                      
                     alt="Melaku Deguale" 
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover hover:scale-110 transition-transform duration-700"
                   />
                 </div>
               </div>
               {/* Floating Orbit Badges */}
-              <div className="absolute top-2 right-4 sm:right-10 w-12 h-12 rounded-full bg-[#0f172a] border border-slate-700 shadow-xl flex items-center justify-center text-lg animate-bounce">
+              <div className="absolute top-2 right-4 sm:right-10 w-12 h-12 rounded-full bg-[#0f172a] border border-slate-700 shadow-xl flex items-center justify-center text-lg animate-bounce hover:bg-blue-900/50 transition-colors duration-300">
                 🚀
               </div>
-              <div className="absolute bottom-4 left-4 sm:left-10 w-12 h-12 rounded-full bg-[#0f172a] border border-slate-700 shadow-xl flex items-center justify-center text-lg animate-pulse">
+              <div className="absolute bottom-4 left-4 sm:left-10 w-12 h-12 rounded-full bg-[#0f172a] border border-slate-700 shadow-xl flex items-center justify-center text-lg animate-pulse hover:bg-blue-900/50 transition-colors duration-300">
                 💡
               </div>
             </div>
@@ -153,7 +153,7 @@ export default function Home() {
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               {/* My Story Card */}
-              <div className="p-8 rounded-2xl bg-[#0d1424] border border-slate-800 space-y-5">
+              <div className="p-8 rounded-2xl bg-[#0d1424] border border-slate-800 hover:border-blue-500/50 hover:bg-[#10192e] hover:-translate-y-2 hover:shadow-2xl hover:shadow-blue-500/10 transition-all duration-300 space-y-5">
                 <h3 className="text-2xl font-bold text-white">My Story</h3>
                 <p className="text-slate-300 text-xt leading-relaxed">
                   I'm <strong>Melaku Deguale</strong>, an <strong>Information Science and Technology student at Debre Berhan University</strong> with a strong interest in cybersecurity, Linux comand exprience, networking, and web application security.
@@ -186,7 +186,7 @@ export default function Home() {
               </div>
 
               {/* Interests & Goals Card */}
-              <div className="p-8 rounded-2xl bg-[#0d1424] border border-slate-800 space-y-4">
+              <div className="p-8 rounded-2xl bg-[#0d1424] border border-slate-800 hover:border-blue-500/50 hover:bg-[#10192e] hover:-translate-y-2 hover:shadow-2xl hover:shadow-blue-500/10 transition-all duration-300 space-y-4">
                 <h3 className="text-2xl font-bold text-white">Career Objective</h3>
                 <p className="text-slate-300 text-xt leading-relaxed">
                   To gain practical experience in the cybersecurity industry, contribute responsibly to authorized security work, and continue developing skills in vulnerability assessment, network security, and web application development.
@@ -232,12 +232,12 @@ export default function Home() {
               </p>
             </div>
 
-            {/* Devicons Stylesheet - ይህንን ከላይ ማስገባት ሎጎዎቹን ያመጣቸዋል */}
+            {/* Devicons Stylesheet */}
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full">
               {/* Programming & Development Card */}
-              <div className="p-8 sm:p-10 rounded-2xl bg-[#0d1424] border border-slate-800 space-y-8">
+              <div className="p-8 sm:p-10 rounded-2xl bg-[#0d1424] border border-slate-800 hover:border-blue-500/30 transition-all duration-300 hover:bg-[#172138] transition-all shadow-md space-y-8">
                 <h3 className="text-xl font-bold text-white flex items-center gap-3">
                   <span className="text-2xl">💻</span> Programming & Development
                 </h3>
@@ -253,7 +253,7 @@ export default function Home() {
                     { name: "CSS3", icon: "devicon-css3-plain colored" },
                     { name: "Next.js", icon: "devicon-nextjs-plain text-white" },
                   ].map((skill) => (
-                    <div key={skill.name} className="p-4 sm:p-6 rounded-2xl bg-[#131c31] border border-slate-800 flex flex-col items-center justify-center gap-3 hover:border-blue-500 hover:bg-[#172138] transition-all shadow-md">
+                    <div key={skill.name} className="p-4 sm:p-6 rounded-2xl bg-[#131c31] border border-slate-800 flex flex-col items-center justify-center gap-3 hover:border-blue-500 hover:bg-[#172138]  hover:shadow-lg hpver:shadow-blue-500/20 transition-all duration-300 cursor-default">
                       <i className={`${skill.icon} text-3xl sm:text-5xl`}></i>
                       <span className="font-medium text-xs sm:text-sm text-slate-300 text-center">{skill.name}</span>
                     </div>
@@ -262,7 +262,7 @@ export default function Home() {
               </div>
 
               {/* Cybersecurity & Tools Card */}
-              <div className="p-8 sm:p-10 rounded-2xl bg-[#0d1424] border border-slate-800 space-y-8">
+              <div className="p-8 sm:p-10 rounded-2xl bg-[#0d1424] border border-slate-800 hover:border-blue-500/30 transition-all duration-300 hover:bg-[#172138] transition-all shadow-md space-y-8">
                 <h3 className="text-xl font-bold text-white flex items-center gap-3">
                   <span className="text-2xl">🛡️</span> Cybersecurity & Tools
                 </h3>
@@ -278,7 +278,7 @@ export default function Home() {
                     { name: "GitLab", icon: "devicon-gitlab-plain colored" },
                     { name: "TryHackMe", emoji: "🏴‍☠️" },
                   ].map((skill) => (
-                    <div key={skill.name} className="p-4 sm:p-6 rounded-2xl bg-[#131c31] border border-slate-800 flex flex-col items-center justify-center gap-3 hover:border-blue-500 hover:bg-[#172138] transition-all shadow-md">
+                    <div key={skill.name} className="p-4 sm:p-6 rounded-2xl bg-[#131c31] border border-slate-800 flex flex-col items-center justify-center gap-3 hover:scale-110hover:border-blue-500 hover:bg-[#172138] hover:shadow-lg hover:shadow-blue-500/20 transition-all duration-300 cursor-default">
                       {skill.icon ? (
                         <i className={`${skill.icon} text-4xl sm:text-5xl`}></i>
                       ) : (
@@ -305,7 +305,7 @@ export default function Home() {
 
             <div className="space-y-6 max-w-4xl mx-auto">
               {/* Training Item 1 */}
-              <div className="p-7 rounded-2xl bg-[#0d1424] border border-slate-800 hover:border-blue-500/40 transition-all space-y-4">
+              <div className="p-7 rounded-2xl bg-[#0d1424] border border-slate-800 hover:border-blue-500/40 hover:bg-[#10192e] hover:-translate-y-2 hover:shadow-2xl hover:shadow-blue-500/10 transition-all duration-300 space-y-4">
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
                   <div>
                     <h3 className="text-2xl font-bold text-white">INSA Cybersecurity Bootcamp</h3>
@@ -329,7 +329,7 @@ export default function Home() {
               </div>
 
               {/* Education Item 2 */}
-              <div className="p-7 rounded-2xl bg-[#0d1424] border border-slate-800 hover:border-blue-500/40 transition-all space-y-4">
+              <div className="p-7 rounded-2xl bg-[#0d1424] border border-slate-800 hover:border-blue-500/40 hover:bg-[#10192e] hover:-translate-y-2 hover:shadow-2xl hover:shadow-blue-500/10 transition-all duration-300 space-y-4">
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
                   <div>
                     <h3 className="text-xl font-bold text-white">Debre Berhan University</h3>
@@ -367,9 +367,9 @@ export default function Home() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full">
               {/* Project 1: EthioVuln */}
-              <div className="rounded-2xl bg-[#0d1424] border border-slate-800 hover:border-blue-500/40 transition-all flex flex-col justify-between overflow-hidden shadow-xl">
+              <div className="rounded-2xl bg-[#0d1424] border border-slate-800 hover:border-blue-500/40 hover:-translate-y-2 hover:shadow-2xl hover:shadow-blue-500/15 transition-all flex flex-col justify-between overflow-hidden shadow-xl">
                 <div className="h-48 w-full bg-gradient-to-br from-blue-900/40 via-slate-900 to-[#0d1424] border-b border-slate-800/80 flex flex-col items-center justify-center p-6 text-center relative">
-                  <div className="w-12 h-12 rounded-xl bg-blue-500/10 border border-blue-500/30 flex items-center justify-center text-2xl mb-2">
+                  <div className="w-12 h-12 rounded-xl bg-blue-500/10 border border-blue-500/30 flex items-center justify-center text-2xl mb-2 hover:scale-110 transition-transform duration-300">
                     🛡️
                   </div>
                   <span className="text-lg font-black text-white tracking-wide">EthioVuln Platform</span>
@@ -394,7 +394,7 @@ export default function Home() {
                   <div className="grid grid-cols-2 gap-3 pt-6">
                     <a
                       href="#home"
-                      className="w-full text-center py-2.5 rounded-xl bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white text-xs font-semibold transition shadow-md shadow-blue-500/25"
+                      className="w-full text-center py-2.5 rounded-xl bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white text-xs font-semibold hover:scale-105 transition-all duration-300 shadow-md shadow-blue-500/25"
                     >
                       View Demo
                     </a>
@@ -402,7 +402,7 @@ export default function Home() {
                       href="https://github.com/melakudeguale9-droid/ethiovuln"
                       target="_blank"
                       rel="noreferrer"
-                      className="w-full text-center py-2.5 rounded-xl bg-[#172138] hover:bg-[#1e2a47] text-slate-200 border border-slate-700 text-xs font-semibold transition"
+                      className="w-full text-center py-2.5 rounded-xl bg-[#172138] hover:bg-[#1e2a47] text-slate-200 border border-slate-700 text-xs font-semibold hover:scale-105 transition-all duration-300"
                     >
                       GitHub
                     </a>
@@ -411,9 +411,9 @@ export default function Home() {
               </div>
 
               {/* Project 2: Defensive Security Labs */}
-              <div className="rounded-2xl bg-[#0d1424] border border-slate-800 hover:border-blue-500/40 transition-all flex flex-col justify-between overflow-hidden shadow-xl">
+              <div className="rounded-2xl bg-[#0d1424] border border-slate-800 hover:border-blue-500/40 hover:-translate-y-2 hover:shadow-2xl hover:shadow-blue-500/15 transition-all duration-300 flex flex-col justify-between overflow-hidden shadow-xl">
                 <div className="h-48 w-full bg-gradient-to-br from-indigo-900/40 via-slate-900 to-[#0d1424] border-b border-slate-800/80 flex flex-col items-center justify-center p-6 text-center relative">
-                  <div className="w-12 h-12 rounded-xl bg-indigo-500/10 border border-indigo-500/30 flex items-center justify-center text-2xl mb-2">
+                  <div className="w-12 h-12 rounded-xl bg-indigo-500/10 border border-indigo-500/30 flex items-center justify-center text-2xl mb-2 hover:scale-110 transition-transform duration-300">
                     🔒
                   </div>
                   <span className="text-lg font-black text-white tracking-wide">Defensive Security Labs</span>
@@ -438,7 +438,7 @@ export default function Home() {
                   <div className="grid grid-cols-2 gap-3 pt-6">
                     <a
                       href="#home"
-                      className="w-full text-center py-2.5 rounded-xl bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white text-xs font-semibold transition shadow-md shadow-blue-500/25"
+                      className="w-full text-center py-2.5 rounded-xl bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white text-xs font-semibold  transition-all duration-300 shadow-md shadow-blue-500/25 hover:scale-105"
                     >
                       View Demo
                     </a>
@@ -446,7 +446,7 @@ export default function Home() {
                       href="https://github.com/melakudeguale9-droid"
                       target="_blank"
                       rel="noreferrer"
-                      className="w-full text-center py-2.5 rounded-xl bg-[#172138] hover:bg-[#1e2a47] text-slate-200 border border-slate-700 text-xs font-semibold transition"
+                      className="w-full text-center py-2.5 rounded-xl bg-[#172138] hover:bg-[#1e2a47] text-slate-200 border border-slate-700 text-xs font-semibold transitio-all duration-300 hover:scale-105"
                     >
                       GitHub Profile
                     </a>
@@ -455,9 +455,9 @@ export default function Home() {
               </div>
 
               {/* Project 3: Software & Web Development */}
-              <div className="rounded-2xl bg-[#0d1424] border border-slate-800 hover:border-blue-500/40 transition-all flex flex-col justify-between overflow-hidden shadow-xl">
+              <div className="rounded-2xl bg-[#0d1424] border border-slate-800 hover:border-blue-500/40 hover:-translate-y-2 hover:shadow-2xl hover:shadow-blue-500/15 transition-all duration-300 flex flex-col justify-between overflow-hidden shadow-xl">
                 <div className="h-48 w-full bg-gradient-to-br from-cyan-900/40 via-slate-900 to-[#0d1424] border-b border-slate-800/80 flex flex-col items-center justify-center p-6 text-center relative">
-                  <div className="w-12 h-12 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-2xl mb-2">
+                  <div className="w-12 h-12 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-2xl mb-2 hover:scale-110 transition-transform duration-300">
                     💻
                   </div>
                   <span className="text-lg font-black text-white tracking-wide">Developer Portfolio</span>
@@ -482,7 +482,7 @@ export default function Home() {
                   <div className="grid grid-cols-2 gap-3 pt-6">
                     <a
                       href="#home"
-                      className="w-full text-center py-2.5 rounded-xl bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white text-xs font-semibold transition shadow-md shadow-blue-500/25"
+                      className="w-full text-center py-2.5 rounded-xl bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white text-xs font-semibold hover:scale-105 transition-all duration-300 shadow-md shadow-blue-500/25"
                     >
                       View Demo
                     </a>
@@ -490,7 +490,7 @@ export default function Home() {
                       href="https://github.com/melakudeguale9-droid/my-portfolio"
                       target="_blank"
                       rel="noreferrer"
-                      className="w-full text-center py-2.5 rounded-xl bg-[#172138] hover:bg-[#1e2a47] text-slate-200 border border-slate-700 text-xs font-semibold transition"
+                      className="w-full text-center py-2.5 rounded-xl bg-[#172138] hover:bg-[#1e2a47] text-slate-200 border border-slate-700 text-xs font-semibold hover:scale-105 transition-all duration-300"
                     >
                       GitHub
                     </a>
@@ -522,7 +522,7 @@ export default function Home() {
             {/* 3-Column Cards Grid */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full">
               {/* Card 1: INSA Cybersecurity Bootcamp */}
-              <div className="p-7 rounded-2xl bg-[#0d1424] border border-slate-800 hover:border-blue-500/40 transition-all flex flex-col justify-between space-y-5 shadow-lg">
+              <div className="p-7 rounded-2xl bg-[#0d1424] border border-slate-800 hover:border-blue-500/40 hover:-translate-y-2 hover:shadow-2xl hover:shadow-blue-500/15 transition-all duration-300 flex flex-col justify-between space-y-5 shadow-lg">
                 <div className="space-y-3">
                   <h4 className="text-xl font-bold text-white">
                     INSA Cyber Security Bootcamp
@@ -550,7 +550,7 @@ export default function Home() {
                     href="/certificates/insa-bootcamp.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="px-4 py-1.5 rounded-lg text-xt font-semibold bg-[#131c31] hover:bg-slate-800 text-slate-300 border border-slate-700 transition"
+                    className="px-4 py-1.5 rounded-lg text-xt font-semibold bg-[#131c31] hover:bg-slate-800 text-slate-300 border border-slate-700 hover:border-slate-500 hover:scale-105 transition-all duration-300 w-full text-center"
                   >
                     View Certificate ↗
                   </a>
@@ -558,7 +558,7 @@ export default function Home() {
               </div>
 
               {/* Card 2: Udacity 4 Nanodegree Programs */}
-              <div className="p-7 rounded-2xl bg-[#0d1424] border border-slate-800 hover:border-blue-500/40 transition-all flex flex-col justify-between space-y-5 shadow-lg">
+              <div className="p-7 rounded-2xl bg-[#0d1424] border border-slate-800 hover:border-blue-500/40 hover:-translate-y-2 hover:shadow-2xl hover:shadow-blue-500/15 transition-all duration-300 flex flex-col justify-between space-y-5 shadow-lg">
                 <div className="space-y-3">
                   <h4 className="text-xl font-bold text-white">
                     Udacity Nanodegree Programs
@@ -586,7 +586,7 @@ export default function Home() {
                     href="/certificates/udacity-certificates.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="px-4 py-1.5 rounded-lg text-xt font-semibold bg-[#131c31] hover:bg-slate-800 text-slate-300 border border-slate-700 transition"
+                    className="px-4 py-1.5 rounded-lg text-xt font-semibold bg-[#131c31] hover:bg-slate-800 text-slate-300 border border-slate-700 transition-all duration-300 hover:scale-105"
                   >
                     View Certificates ↗
                   </a>
@@ -594,7 +594,7 @@ export default function Home() {
               </div>
 
               {/* Card 3: 12 e-SHE Ministry of Education Certs */}
-              <div className="p-7 rounded-2xl bg-[#0d1424] border border-slate-800 hover:border-blue-500/40 transition-all flex flex-col justify-between space-y-5 shadow-lg">
+              <div className="p-7 rounded-2xl bg-[#0d1424] border border-slate-800 hover:border-blue-500/40 hover:-translate-y-2 hover:shadow-2xl hover:shadow-blue-500/15 transition-all duration-300 flex flex-col justify-between space-y-5 shadow-lg">
                 <div className="space-y-3">
                   <h4 className="text-xt font-bold text-white">
                     e-SHE Academic Credentials
@@ -646,48 +646,48 @@ export default function Home() {
               {/* Connect Links Card */}
               <div className="lg:col-span-5 space-y-4">
                 <h3 className="text-xl font-bold text-white">Let's Connect</h3>
-                <a href="https://github.com/melakudeguale9-droid" target="_blank" rel="noreferrer" className="p-4 rounded-xl bg-[#0d1424] border border-slate-800 hover:border-blue-500/40 transition flex items-center gap-4">
-                  <div className="w-10 h-10 rounded-full bg-blue-500/10 flex items-center justify-center text-blue-400 font-bold">GH</div>
+                <a href="https://github.com/melakudeguale9-droid" target="_blank" rel="noreferrer" className="p-4 rounded-xl bg-[#0d1424] border border-slate-800 hover:border-blue-500/40 hover:bg-[#10192e] hover:scale-[1.02]hover:shadow-lg transition-all flex items-center gap-4 group">
+                  <div className="w-10 h-10 rounded-full bg-blue-500/10 flex items-center justify-center text-blue-400 font-bold group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">GH</div>
                   <div>
-                    <h4 className="font-semibold text-white text-xt">GitHub</h4>
+                    <h4 className="font-semibold text-white text-xt group-hover:text-blue-400 transition-colors">GitHub</h4>
                     <p className="text-xt text-slate-400">github.com/melakudeguale9-droid</p>
                   </div>
                 </a>
-                <a href="https://linkedin.com/in/melaku-deguale-7803ba416" target="_blank" rel="noreferrer" className="p-4 rounded-xl bg-[#0d1424] border border-slate-800 hover:border-blue-500/40 transition flex items-center gap-4">
-                  <div className="w-10 h-10 rounded-full bg-blue-500/10 flex items-center justify-center text-blue-400 font-bold">IN</div>
+                <a href="https://linkedin.com/in/melaku-deguale-7803ba416" target="_blank" rel="noreferrer" className="p-4 rounded-xl bg-[#0d1424] border border-slate-800 hover:border-blue-500/40 hover:bg-[#10192e] hover:scale-[1.02] hover:shadow-lg transition-all flex items-center gap-4 group">
+                  <div className="w-10 h-10 rounded-full bg-blue-500/10 flex items-center justify-center text-blue-400 font-bold group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">IN</div>
                   <div>
-                    <h4 className="font-semibold text-white text-xt">LinkedIn</h4>
+                    <h4 className="font-semibold text-white text-xt group-hover:text-blue-400 transition-colors">LinkedIn</h4>
                     <p className="text-xt text-slate-400">linkedin.com/in/melaku-deguale</p>
                   </div>
                 </a>
-                <a href="mailto:melakudeguale9@gmail.com" className="p-4 rounded-xl bg-[#0d1424] border border-slate-800 hover:border-blue-500/40 transition flex items-center gap-4">
-                  <div className="w-10 h-10 rounded-full bg-blue-500/10 flex items-center justify-center text-blue-400 font-bold">✉️</div>
+                <a href="mailto:melakudeguale9@gmail.com" className="p-4 rounded-xl bg-[#0d1424] border border-slate-800 hover:border-blue-500/40 hover:bg-[#10192e] hover:scale-[1.02] hover:shadow-lg transition-all duration-300 flex items-center gap-4 group">
+                  <div className="w-10 h-10 rounded-full bg-blue-500/10 flex items-center justify-center text-blue-400 font-bold group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">✉️</div>
                   <div>
-                    <h4 className="font-semibold text-white text-xt">Email</h4>
+                    <h4 className="font-semibold text-white text-xt group-hover:text-blue-400 transition-colors">Email</h4>
                     <p className="text-xt text-slate-400">melakudeguale9@gmail.com</p>
                   </div>
                 </a>
                 <div className="p-4 rounded-xl bg-[#0d1424] border border-slate-800 flex items-center gap-4">
-                  <div className="w-10 h-10 rounded-full bg-blue-500/10 flex items-center justify-center text-blue-400 font-bold">📞</div>
+                  <div className="w-10 h-10 rounded-full bg-blue-500/10 flex items-center justify-center text-blue-400 font-bold group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">📞</div>
                   <div>
-                    <h4 className="font-semibold text-white text-xt">Phone</h4>
+                    <h4 className="font-semibold text-white text-xt group-hover:text-blue-400 transition-colors">Phone</h4>
                     <p className="text-xs text-slate-400">+251 929 222 356</p>
                   </div>
                 </div>
               </div>
 
               {/* Message Input Form Card */}
-              <div className="lg:col-span-7 p-8 rounded-2xl bg-[#0d1424] border border-slate-800 space-y-4">
-                <h3 className="text-3xl font-bold text-white">Send Me a Message</h3>
-                <form action="https://api.web3forms.com/submit" method="POST" className="space-y-4">
+              <div className="lg:col-span-7 p-8 rounded-2xl bg-[#0d1424] border border-slate-800 hover:border-blue-500/30 hover:shadow-2xl transition-all duration-500 space-y-4">
+                <h3 className="text-xl font-bold text-white">Send Me a Message</h3>
+                <form action="http://api.web3fforms.com/submit" method="POST" className="space-y-4">
                   <input type="hidden" name="access_key" value="8efb1b54-886d-4f22-b7dc-6eabf25a5a42" />
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <input type="text" name="name" placeholder="Your Name *" className="w-full px-4 py-3 rounded-xl bg-[#131c31] border border-slate-800 text-sm text-slate-200 focus:outline-none focus:border-blue-500 transition" required />
-                    <input type="email" name="email" placeholder="Email Address *" className="w-full px-4 py-3 rounded-xl bg-[#131c31] border border-slate-800 text-sm text-slate-200 focus:outline-none focus:border-blue-500 transition" required />
+                    <input type="text" name="name" placeholder="Your Name *" className="w-full px-4 py-3 rounded-xl bg-[#131c31] border border-slate-800 text-sm text-slate-200 focus:outline-none focus:border-blue-500 focus:bg-[#172138] transition-all duration-300" required />
+                    <input type="email" name="email" placeholder="Email Address *" className="w-full px-4 py-3 rounded-xl bg-[#131c31] border border-slate-800 text-sm text-slate-200 focus:outline-none focus:border-blue-500 focus:bg-[#172138] transition-all duration-300" required />
                   </div>
-                  <input type="text" name="subject" placeholder="Subject *" className="w-full px-4 py-3 rounded-xl bg-[#131c31] border border-slate-800 text-sm text-slate-200 focus:outline-none focus:border-blue-500 transition" required />
-                  <textarea name="message" rows={4} placeholder="Message *" className="w-full px-4 py-3 rounded-xl bg-[#131c31] border border-slate-800 text-sm text-slate-200 focus:outline-none focus:border-blue-500 transition" required />
-                  <button type="submit" className="w-full py-3.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-3xl transition shadow-lg shadow-blue-600/30">Send Message</button>
+                  <input type="text" name="subject" placeholder="Subject *" className="w-full px-4 py-3 rounded-xl bg-[#131c31] border border-slate-800 text-sm text-slate-200 focus:outline-none focus:border-blue-500 focus:bg-[#172138] transition-all duration-300" required />
+                  <textarea name="message" rows={4} placeholder="Message *" className="w-full px-4 py-3 rounded-xl bg-[#131c31] border border-slate-800 text-sm text-slate-200 focus:outline-none focus:border-blue-500 focus:bg-[#172138] transition-all duration-300" required />
+                  <button type="submit" className="w-full py-3.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-3xl hover:scale-[1.02] transition-all duration-300 shadow-lg shadow-blue-600/30">Send Message</button>
                 </form>
               </div>
             </div>
@@ -706,12 +706,12 @@ export default function Home() {
           </section>
 
           {/* Footer */}
-          <footer className="pt-12 border-t border-slate-900 flex flex-col sm:flex-row items-center justify-between text-xt font-mono text-slate-500 gap-4">
+          <footer className="pt-12 border-t border-slate-900 flex flex-col sm:flex-column items-center justify-between text-xt font-mono text-slate-500 gap-4">
             <p>&copy; 2026 Melaku Deguale. All rights reserved.</p>
             <div className="flex gap-4">
-              <a href="https://github.com/melakudeguale9-droid" target="_blank" rel="noreferrer" className="hover:text-blue-400 transition">GitHub</a>
-              <a href="https://linkedin.com/in/melaku-deguale-7803ba416" target="_blank" rel="noreferrer" className="hover:text-blue-400 transition">LinkedIn</a>
-              <a href="mailto:melakudeguale9@gmail.com" className="hover:text-blue-400 transition">Email</a>
+              <a href="https://github.com/melakudeguale9-droid" target="_blank" rel="noreferrer" className="hover:text-blue-400 hover:-translate-y-1 transition-all duration-300 inline-block">GitHub</a>
+              <a href="https://linkedin.com/in/melaku-deguale-7803ba416" target="_blank" rel="noreferrer" className="hover:text-blue-400 hover:-translate-y-1 transition-all duration-300 inline-block">LinkedIn</a>
+              <a href="mailto:melakudeguale9@gmail.com" className="hover:text-blue-400 hover:-translate-y-1 transition-all duration-300 inline-block">Email</a>
             </div>
           </footer>
 
