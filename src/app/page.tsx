@@ -46,7 +46,7 @@ export default function Home() {
       {/* 3. Sticky Navbar */}
       <nav className="fixed top-0 left-0 right-0 backdrop-blur-md bg-[#070b19]/85 border-b border-slate-800/80 px-6 py-4">
         <div className="w-full max-w-[1440px] mx-auto flex items-center justify-between">
-          <a href="#home" className="text-2xl font-bold text-blue-500 tracking-wide hover:text-blue-400 transition">
+          <a href="#home" className="text-2xl font-bold text-blue-500 tracking-wide hover:text-blue-400 hover:scale-105 transition-all duration-300 inline-block">
             Melaku
           </a>
 
@@ -87,7 +87,7 @@ export default function Home() {
               <h1 className="text-4xl sm:text-6xl font-black text-white tracking-tight leading-tight">
                 Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-400">Melaku Deguale</span>
               </h1>
-              <p className="text-[13spx] sm:text-2xl font-bold text-slate-200">
+              <p className="text-xl sm:text-2xl font-bold text-slate-200">
                 Cybersecurity  |  Developer 
               </p>
               <p className="text-slate-400 text-base sm:text-lg leading-relaxed max-w-xl">
