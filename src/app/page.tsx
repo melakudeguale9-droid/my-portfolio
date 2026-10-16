@@ -44,7 +44,7 @@ export default function Home() {
       </div>
 
       {/* 3. Sticky Navbar */}
-      <nav className="fixed top-0 left-0 right-0 backdrop-blur-md bg-[#070b19]/85 border-b border-slate-800/80 px-6 py-4">
+      <nav className="sticky top-0 z-50 backdrop-blur-md bg-[#070b19]/85 border-b border-slate-800/80 px-6 py-4">
         <div className="w-full max-w-[1440px] mx-auto flex items-center justify-between">
           <a href="#home" className="text-2xl font-bold text-blue-500 tracking-wide hover:text-blue-400 hover:scale-105 transition-all duration-300 inline-block">
             Melaku
