@@ -124,7 +124,7 @@ export default function Home() {
               <div className="relative w-64 h-64 sm:w-80 sm:h-80 rounded-full p-2 bg-gradient-to-tr from-blue-500 via-cyan-400 to-indigo-500 shadow-2xl shadow-blue-500/20 hover:shadow-blue-500/50 transition-all">
                 <div className="w-full h-full rounded-full overflow-hidden bg-slate-900 border-4 border-[#070b19] relative">
                   <img 
-                    src="/profile.jp"                                      
+                    src="/profile.jpg"                                      
                     alt="Melaku Deguale" 
                     className="w-full h-full object-cover hover:scale-110 transition-transform duration-700"
                   />
