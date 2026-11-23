@@ -393,7 +393,7 @@ export default function Home() {
 
                   <div className="grid grid-cols-2 gap-3 pt-6">
                     <a
-                      href="#home"
+                      href="https://www.youtube.com/watch?v=STanNPh2qI0&t=8s"
                       className="w-full text-center py-2.5 rounded-xl bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white text-xs font-semibold hover:scale-105 transition-all duration-300 shadow-md shadow-blue-500/25"
                     >
                       View Demo
